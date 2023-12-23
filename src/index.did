@@ -1,0 +1,4 @@
+service: () -> {
+    addNames: (text, text) -> (text);
+    getNames: (text) -> (text) query;
+}
