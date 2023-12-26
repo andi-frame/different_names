@@ -2,12 +2,11 @@
     "canisters": {
         "different_names": {
             "type": "custom",
-            "main": "src/index.ts",
-            "candid": "src/index.did",
             "build": "npx azle different_names",
-            "wasm": ".azle/different_names/different_names.wasm",
-            "gzip": true
+            "root": "src",
+            "ts": "src/index.ts",
+            "candid": "src/index.did",
+            "wasm": ".azle/different_names/different_names.wasm.gz"
         }
     }
 }
-
