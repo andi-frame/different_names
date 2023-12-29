@@ -1,4 +1,5 @@
-service: () -> {
-    addNames: (text, text) -> (text);
-    getNames: (text) -> (text) query;
+type _AzleResult = variant { Ok : text; Err : text };
+service : () -> {
+  addName : (text, text) -> (_AzleResult);
+  getNames : (text) -> (_AzleResult) query;
 }
